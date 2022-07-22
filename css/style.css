@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: header-menu-item;
+    src: url("../fonts/HindSiliguri-Light.ttf");
+}
+
+
+@font-face {
+    font-family: main-title;
+    src: url("../fonts/Prompt-Regular.ttf");
+}
+
+body {
+    width: 100%;
+    /*background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);*/
+    background-color: #040d21;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container {
+    margin: 1% 0;
+    padding: .2% 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-logo-container {
+    color: #fff;
+    cursor: pointer;
+}
+
+.header-menu-container {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-menu-item {
+    color: #fff;
+    font-size: 18px;
+    font-family: header-menu-item;
+    cursor: pointer;
+}
+
+.header-row-container {
+    padding-right: 1%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-search-input {
+    padding: 1% 7% 1% 2%;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .4);
+    font-size: 16px;
+    font-family: header-menu-item;
+    color: #ccc;
+}
+
+.header-search-input::placeholder {
+    font-size: 16px;
+    font-family: header-menu-item;
+    color: #ccc;
+}
+
+.user-authenticate-button {
+    padding: 1% 2.5%;
+    color: #fff;
+    font-size: 18px;
+    font-family: header-menu-item;
+    border-radius: 10px;
+}
+
+#sign-up-button {
+    border: 1px solid #fff;
+}
+
+.main-container{
+    width: 100%;
+    display: flex;
+}
+
+.intro-page-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-page-title {
+    width: 90%;
+    margin-left: 5%;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 52px;
+    font-family: main-title;
+}
+
+.intro-page-github-info {
+    margin-left: 5%;
+    width: 80%;
+    color: #8193b2;
+    font-size: 24px;
+    font-family: main-title;
+}
+
+.intro-page-signup-items-container {
+    width: 90%;
+    margin: 1% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-page-signup-input {
+    padding: 2% 25% 2% 5%;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+}
+
+.intro-page-signup-input,
+.intro-page-signup-input::placeholder {
+    color: #777;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: main-title;
+}
+
+.intro-page-signup-button{
+    padding: 2% 6%;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: header-menu-item;
+    background-color: #2ea44f;
+}
+
+.intro-page-video-container{
+    width: 50%;
+    z-index: -1;
+}
+
+.github-records-container{
+    width: 98%;
+    margin: 1% auto;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #aaaaaa;
+}
+
+.github-records-item-container{
+    margin: 1% 2%;
+    width: 15%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.github-records-item-title{
+    color: #ddd;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: header-menu-item;
+}
+
+.github-records-item-field{
+    color: #aaaaaa;
+    font-size: 14px;
+    font-family: main-title;
+}
